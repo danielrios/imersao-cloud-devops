@@ -1,0 +1,20 @@
+    # Ambientes virtuais
+    .venv
+    venv
+    env
+
+    # Cache do Python
+    __pycache__/
+    *.pyc
+    *.pyo
+    *.pyd
+
+    # Arquivos de configuração local
+    .env
+
+    # Git
+    .git
+    .gitignore
+
+    # Cache de testes
+    .pytest_cache
