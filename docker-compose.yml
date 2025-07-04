@@ -1,0 +1,11 @@
+services:
+  # Serviço único que contém a API e o Banco de Dados
+  app:
+    # Constrói a imagem a partir do nosso Dockerfile modificado
+    build: .
+    container_name: gestao_escolar
+    ports:
+      - "8000:8000"
+    # Monta o código para que o --reload funcione
+    volumes:
+      - .:/app
